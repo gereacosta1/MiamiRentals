@@ -1,0 +1,49 @@
+:root{
+    --primary-color: #142738;
+    --paragraph-color:#ca1444;
+    --heading-color:#f4436f;
+    
+}
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Raleway";
+}
+
+section{
+    background-image: url(./img/imghd.webp);
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+
+
+.nav-links a{
+    margin-right: 90px;
+    text-decoration: none;
+    font-family: "Raleway";
+    
+}
+
+.description{
+    font-family: "Raleway";
+    font-size: 25px;
+    text-align: center;
+
+    & p{
+        font-size: 20px;
+    }
+}
+
+.left{
+    & img.logo{
+        size: 10px;
+
+    }
+}
+
+.img-logo{
+    font-size: 10px;
+}
